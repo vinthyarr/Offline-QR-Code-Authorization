@@ -1,0 +1,70 @@
+/* App.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ff6ec4, #7873f5); /* Purple-pink gradient */
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8); /* White with slight transparency */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Light Shadow */
+}
+
+.otp-verification {
+  text-align: center;
+}
+
+.shop-types,
+.shop-list {
+  margin-bottom: 20px;
+}
+
+.shop-types ul,
+.shop-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.shop-list li {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: rgba(0, 123, 255, 0.8); /* Blue with slight transparency */
+  color: #fff; /* White */
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif; /* Change font */
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.shop-list li:hover {
+  background-color: rgba(0, 123, 255, 1); /* Darker Blue */
+}
+
+.qr-code {
+  text-align: center;
+}
+
+.animated-button {
+  background-color: rgba(0, 123, 255, 0.8); /* Blue with slight transparency */
+  color: #fff; /* White */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: 'Arial', sans-serif; /* Change font */
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.animated-button:hover {
+  background-color: rgba(0, 123, 255, 1); /* Darker Blue */
+  transform: scale(1.05); /* Scale up on hover */
+}
